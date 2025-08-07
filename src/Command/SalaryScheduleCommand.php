@@ -17,11 +17,6 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 )]
 class SalaryScheduleCommand extends Command
 {
-    private const MONDAY = 1;
-    private const TUESDAY = 2;
-    private const WEDNESDAY = 3;
-    private const THURSDAY = 4;
-    private const FRIDAY = 5;
     private const WEEKEND = [6, 7];
     public function __construct()
     {
